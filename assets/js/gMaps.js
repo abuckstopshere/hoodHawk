@@ -19,13 +19,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function launchMap() {
     var myLocation = {
-        lat: 37.421999900,
-        lng: -122.084057500
+        lat: 31.2397,
+        lng: 121.4998
     };
     var map = new google.maps.Map(document.getElementById('map'), {
         center: {
-            lat: 37.421999900,
-            lng: -122.084057500
+            lat: 31.2397,
+            lng: 121.4998
         },
         zoom: 14
     });
